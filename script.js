@@ -32,3 +32,8 @@ step 32
 
 let pushed = rows.push("freeCodeCamp");
 console.log(pushed);
+
+step 36
+for (let i = 0; i < count; i = i + 1) {
+
+}
