@@ -31,4 +31,4 @@ console.log(pushed);
 step 32
 
 let pushed = rows.push("freeCodeCamp");
-console.log(pushed);ß
+console.log(pushed);
