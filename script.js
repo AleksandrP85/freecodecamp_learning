@@ -37,3 +37,23 @@ step 36
 for (let i = 0; i < count; i = i + 1) {
 
 }
+
+step 37
+
+rows.push(i);
+
+step 39
+
+let result = "";
+
+step 46
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i + 1))
+  }
+
+step 47 
+
+function padRow(){
+
+} 
+
