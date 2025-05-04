@@ -46,20 +46,20 @@
 
 // let result = "";
 //Елка
-const character = "*";
-const count = 8;
-const rows = [];
-for (let i = 0; i < count; i = i + 1) {
-  rows.push(character.repeat(i + 1))
-}
+// const character = "*";
+// const count = 8;
+// const rows = [];
+// for (let i = 0; i < count; i = i + 1) {
+//   rows.push(character.repeat(i + 1))
+// }
 
-let result = ""
+// let result = ""
 
-for (const row of rows) {
-  result = result + row + "\n";
-}
+// for (const row of rows) {
+//   result = result + row + "\n";
+// }
 
-console.log(result);
+// console.log(result);
 
 // step 46
 // for (let i = 0; i < count; i = i + 1) {
@@ -71,4 +71,37 @@ console.log(result);
 // function padRow(){
 
 // } 
+
+
+
+const character = "#";
+const count = 8;
+const rows = [];
+
+
+function padRow(name) {
+  const test = "Testing";
+  
+  return test;
+
+}
+
+
+
+
+const call = padRow("CamperChan");
+console.log(call);
+
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1))
+}
+
+let result = ""
+
+for (const row of rows) {
+  result = result + row + "\n";
+}
+
+console.log(result);
 
